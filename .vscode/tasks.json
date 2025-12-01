@@ -7,7 +7,16 @@
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
+                "-Wall",
+                "-Weffc++",
+                "-Wextra",
+                "-Wconversion",
+                "-Wsign-conversion",
+                "-ggdb",
+                //"-O2", uncomment when release pls
+                //"-DNDEBUG", both
                 "${file}",
+                "-Werror",
                 "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],
