@@ -1,9 +1,9 @@
 #include <iostream>
 
 int main() {
-    int numero1 = 1.5; //copy initialization, narrowing conversion habilitado pero al tratar warnings como errores el compilador da error
+    int numero1 = 1; //copy initialization, narrowing conversion habilitado pero al tratar warnings como errores el compilador da error
 
-    int numero2 ( 2.2 ); //direct initialization, narrowing conversion habilitado pero al tratar warnings como errores el compilador da error
+    int numero2 ( 2 ); //direct initialization, narrowing conversion habilitado pero al tratar warnings como errores el compilador da error
 
     int numero3 = { 3 }; //copy list initialization (raramente usado), narrowing conversion no habilitado 
 
