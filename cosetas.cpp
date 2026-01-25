@@ -5,11 +5,13 @@ int main()
 	int width;
 	width = 5; 
 
-	std::cout << width; 
+	std::cout << width << "\n"; 
 
-	width = 7; 
+	std::cout << "Introduce valor de width \n";
 
-	std::cout << width;
+	std::cin >> width;
+
+	std::cout << "El valor de la variable es: " << width;
 
 	return 0;
 }
