@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/ejercicios-cpp/ejercicios-cpp/exes",
-      "program": "${fileDirname}\\exes\\${fileBasenameNoExtension}.exe",
+      "cwd": "c:/proyectos-cpp/ejercicios-cpp",
+      "program": "c:/proyectos-cpp/ejercicios-cpp/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

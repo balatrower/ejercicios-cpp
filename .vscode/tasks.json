@@ -12,6 +12,7 @@
                 "-Wextra",
                 "-Wconversion",
                 "-Wsign-conversion",
+                "-pedantic-errors",
                 "-ggdb",
                 //"-O2", uncomment when release pls
                 //"-DNDEBUG", both
