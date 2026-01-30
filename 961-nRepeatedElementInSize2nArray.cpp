@@ -23,7 +23,7 @@ int repeatedNTimes(vector<int>& nums) {
             }
         }
 
-        if (numApariciones == 3) {
+        if (numApariciones == nums.size() / 2) {
             return numeroActual;
         }
         
