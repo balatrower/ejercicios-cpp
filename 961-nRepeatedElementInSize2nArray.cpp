@@ -15,7 +15,7 @@ int repeatedNTimes(vector<int>& nums) {
     int numeroActual {0};
     for (size_t i {0}; i < nums.size(); i++) {
         numeroActual = nums[i];
-        int numApariciones {0};
+        size_t numApariciones {0};
         
         for (size_t j {i + 1}; j < nums.size(); j++) {
             if (numeroActual == nums[j]) {
